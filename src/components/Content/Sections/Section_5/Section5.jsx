@@ -5,9 +5,9 @@ import React from "react";
 TODO: Make form section with FN, LN, Email, Message, Reason, Captcha
 */
 
-function Section5(){
+function Section5({sectionClass}){
     return(
-        <div>
+        <div className={sectionClass}>
             <p>Section 5</p>
         </div>
     )
