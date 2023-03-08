@@ -7,8 +7,8 @@ import Section4 from "./Sections/Section_4/Section4";
 import Section5 from "./Sections/Section_5/Section5";
 
 const classes = {
-    white: 'h-96 bg-[#FFFFFF]',
-    dark: 'h-96 bg-[#161B21]',
+    white: 'h-auto bg-[#FFFFFF]',
+    dark: 'h-auto bg-[#161B21]',
 }
 
 function Content(){

@@ -6,23 +6,26 @@ import Typewriter from 'typewriter-effect';
 *This section will be for the video/gif that is currently on the Website
 */
 
+const classes = {
+    blueText: "text-[#00ADBB]",
+    blank: ''
+}
+
 const words = ['CREATE', 'PRODUCE', 'DELIVER']
-let speed = 10000;
-
-
 
 function Section1({sectionClass}){
 
     return(
         <section className={sectionClass}>
-            <div className="text-2xl text-white">
-                <h1>At Bramson</h1>
+            <div className="text-white text-center">
+                <br></br>
+                <h6 className="font-medium text-4xl">At Bramson</h6>
             </div>
-            <div className="text-[10rem] typer grid grid-cols-2">
-                <div className="grid justify-items-end mr-8">
+            <div className="text-[10rem] typer grid grid-cols-2 mt-6">
+                <div className="grid justify-items-end mr-32">
                     <span className="text-white">WE</span>
                 </div>
-                <div className=" text-[#00ADBB]">
+                <div className="text-[#00ADBB]">
                     <Typewriter
                         options={{
                         strings: ['Create', 'Produce', 'Deliver'],
@@ -31,11 +34,9 @@ function Section1({sectionClass}){
                     }}/>
                 </div>
             </div>
-            <div className="text-2xl text-white">
-                <p>Not all meetings are the same. We are here to help tell your story, reach your audience and achieve your goals. From events in hotel ballrooms to meetings in family living rooms... we are Bramson Productions.</p>
+            <div className="text-2xl text-white text-center">
+                <p>Not all meetings are the same.<br></br> We are here to help tell <span className={classes.blank}>your story</span>, reach <span className={classes.blank}>your audience</span>, and achieve <span className={classes.blank}>your goals.</span> <br></br> From events in hotel ballrooms to meetings in family living rooms...<br></br> <span className={classes.blueText}>We are Bramson Productions.</span></p>
                 <br></br>
-                <br></br>
-                <p>Nice to meet you! To learn more, say hello.</p>
             </div>
         </section>
     )
