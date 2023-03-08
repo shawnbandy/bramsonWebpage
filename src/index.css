@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: "Marker";   /*Can be any text*/
+    src: local("marker"),
+      url('./assets/fonts/marker.ttf') format("truetype");
+  }

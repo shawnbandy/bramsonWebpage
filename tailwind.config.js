@@ -2,7 +2,9 @@
 module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
-    extend: {},
+    extend: {
+      animation: {},
+    },
   },
   plugins: [require('prettier-plugin-tailwindcss')],
 };

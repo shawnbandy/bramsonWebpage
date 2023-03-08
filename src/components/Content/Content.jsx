@@ -8,7 +8,7 @@ import Section5 from "./Sections/Section_5/Section5";
 
 const classes = {
     white: 'h-96 bg-[#FFFFFF]',
-    dark: 'h-96 bg-[#505A5C]',
+    dark: 'h-96 bg-[#161B21]',
 }
 
 function Content(){
