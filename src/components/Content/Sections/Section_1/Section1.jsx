@@ -1,9 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import './section1.css'
 import Typewriter from 'typewriter-effect';
 
 /*
 *This section will be for the video/gif that is currently on the Website
+TODO: update background to that animated image?
 */
 
 const classes = {
@@ -11,18 +12,16 @@ const classes = {
     blank: ''
 }
 
-const words = ['CREATE', 'PRODUCE', 'DELIVER']
-
 function Section1({sectionClass}){
 
     return(
         <section className={sectionClass}>
             <div className="text-white text-center">
                 <br></br>
-                <h6 className="font-medium text-4xl">At Bramson</h6>
+                <h6 className="font-medium text-4xl underline underline-offset-8 decoration-[#00ADBB]">At Bramson</h6>
             </div>
             <div className="text-[10rem] typer grid grid-cols-2 mt-6">
-                <div className="grid justify-items-end mr-32">
+                <div className="grid justify-items-end mr-24">
                     <span className="text-white">WE</span>
                 </div>
                 <div className="text-[#00ADBB]">
