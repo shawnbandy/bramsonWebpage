@@ -26,7 +26,7 @@ function Section2({sectionClass}){
                     </div>
                 </div>
                 <div className="w-full h-auto">
-                    <p>Right block change</p>
+                    <p>Right block</p>
                 </div>
             </div>
         </section>
