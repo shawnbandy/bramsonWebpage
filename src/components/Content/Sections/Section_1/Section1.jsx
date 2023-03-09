@@ -20,14 +20,14 @@ function Section1({sectionClass}){
                 <br></br>
                 <h6 className="font-medium text-4xl underline underline-offset-8 decoration-[#00ADBB]">At Bramson</h6>
             </div>
-            <div className="text-[10rem] typer grid grid-cols-2 mt-6">
-                <div className="grid justify-items-end mr-24">
+            <div className="text-[10rem] typer flex mt-6">
+                <div className="w-[60rem] text-right">
                     <span className="text-white">WE</span>
                 </div>
-                <div className="text-[#00ADBB]">
+                <div className="text-[#00ADBB] w-full ml-16">
                     <Typewriter
                         options={{
-                        strings: ['Create', 'Produce', 'Deliver'],
+                        strings: ['Create', 'Produce', 'Deliver', 'Connect', 'Invent'],
                         autoStart: true,
                         loop: true,
                     }}/>
