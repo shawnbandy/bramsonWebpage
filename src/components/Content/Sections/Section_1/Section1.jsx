@@ -4,7 +4,7 @@ import Typewriter from 'typewriter-effect';
 
 /*
 *This section will be for the video/gif that is currently on the Website
-TODO: update background to that animated image?
+TODO: update background to that animated image
 */
 
 const classes = {
